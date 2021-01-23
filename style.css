@@ -1,0 +1,70 @@
+body { 
+    background-color: rgb(116, 114, 114);
+}
+
+
+p{
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+.forras {  text-align: center;  
+     font-weight:bold;
+}
+/* visited link */
+a:visited {
+    color: rgb(114, 5, 114);
+  }
+   /* selected link */
+  a:active {
+    color: rgb(255, 8, 8);
+  }
+  /* Thick red border */
+hr.new4 {
+    border: 1px solid  #1D1D4E; 
+  
+        margin-left: 75px; margin-right: 75px;
+    
+    
+}
+hr.new3 {
+    border: 1px solid  rgb(255, 255, 255); 
+  
+        
+    
+    
+}
+  table   
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        box-shadow: #1D1D4E 0 4px 13px -2px
+      }
+      th, td {
+        padding: 0px;
+             }
+             th {
+                background-color: #1D1D4E;
+                color: white;
+              }
+              tr:nth-child(even) {background-color: gray;}
+tr:nth-child(odd) {background-color: gray;}
+             
+                 
+ 
+img
+{
+
+    float: right;
+      padding: 0px;
+      width: 300px;
+      height: 200px;
+      }
+      img.b {
+          float:left;
+          padding: 0px;
+          width:300px;
+          height:200px;
+      }
